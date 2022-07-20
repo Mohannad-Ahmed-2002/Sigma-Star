@@ -1,0 +1,818 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+}
+
+.nav {
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+.nav ul {
+    list-style-type: none;
+
+}
+
+.nav ul li {
+    font-size: 30px;
+    font-weight: bolder;
+    color: grey;
+    ;
+    display: inline;
+
+}
+
+.buttons {
+    float: left;
+    padding: 5px;
+
+}
+
+
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+
+}
+
+li>a>.main {
+    color: violet;
+
+}
+
+.main>a:focus,
+.main>a:active {
+
+    color: blue;
+
+}
+
+.nav .sigma {
+    margin-right: 15px;
+    font-weight: 1000;
+
+}
+
+/* -----------------------End Navbar-------------- */
+
+
+.container {
+    margin: 50px;
+    height: 100vh;
+}
+
+
+
+
+
+div img {
+    position: relative;
+    right: 900px;
+
+    display: inline-block;
+    width: 40%;
+    animation-name: animate;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+.h1 {
+
+    width: 40%;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+/*----------End Home--------------*/
+
+div .two {
+
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20%;
+
+
+
+
+
+}
+
+.why {
+    width: 40%;
+
+    height: 400px;
+
+}
+
+.two .why h4 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.two .why p {
+    font-size: 20px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.two .why i {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+
+.two .see i {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.two .see p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.two .see h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #5f687b;
+}
+
+.see {
+    float: left;
+
+
+    height: 400px;
+    width: 40%;
+
+}
+
+
+/* -------------------------END TWO DIVS------------------------- */
+
+
+.friends {
+    display: flex;
+    position: relative;
+    width: 100%;
+
+    bottom: 80px;
+    height: 500px;
+}
+
+
+
+.friends .img {
+
+    display: inline;
+    position: relative;
+    left: 50%;
+    height: 500px;
+
+
+}
+
+.friends .img img {
+
+    height: 500px;
+    width: 600px;
+}
+
+.friends div {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+
+    width: 50%;
+}
+
+.friends .friends div p {
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* ------------------------End Friends------------------------- */
+
+.services {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+    overflow: hidden;
+    position: relative;
+background-color: #f9f9fa;
+}
+
+.services .header {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.services p {
+    font-size: 20px;
+
+}
+
+.services .first{
+
+height: 130px;
+width: 90%;
+display: flex;
+justify-content: space-around;
+position: relative;
+top: 40px;
+right: 30px;
+}
+
+
+.services .first #box{
+height: 100%;
+width: 200px;
+background-color: white;
+font-size: 30px;
+font-weight: bolder;
+text-align: center;
+justify-content: center;
+color: #5f687b;;
+
+}
+
+
+
+
+.services .second{
+    
+    height: 130px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 0px;
+    right: 30px;
+    }
+
+
+
+    .services .third{
+        
+        height: 130px;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 50px;
+        right: 30px;
+        }
+
+
+/* ------------------------End Services----------------------- */
+
+.last {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: space-around;
+    
+    position: relative;
+    top: 100px;
+
+}
+
+
+
+form {
+    width: 40%;
+    height: 900px;
+    border-top: 3px solid #01b8dc;
+    border-bottom: 3px solid #01b8dc;
+    font-size: 20px;
+    color: #5f687b;
+    background-color: #f9f9fa;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    padding: 40px;
+}
+
+.last div {
+    width: 40%;
+    height: 900px;
+    background-color: #f9f9fa;
+    position: relative;
+    top: 50px;
+    border-top: 3px solid #01b8dc;
+    border-bottom: 3px solid #01b8dc;
+    left: 100px;
+}
+
+.last div iframe{
+    height: 400px;
+position: relative;
+top: 50px;
+right: 30px;
+}
+
+.last div h3{
+color: #5f687b;
+position: relative;
+top: 40px;
+right: 20px;
+font-size: 30px;
+
+}
+
+.last div p{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+form input{
+    height: 50px;
+
+}
+
+button {
+    background-color: #0dcaf0;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: x-large;
+    border: white;
+    margin-top: 30px;
+}
+
+/* --------------End The Form and location-------------------- */
+
+footer{
+
+width: 100%;
+height: 400px;
+background-color: #f9f9fa;
+position: relative;
+top: 200px;
+
+}
+
+
+footer h1{
+    font-size: 50px;
+    position: relative;
+    top: 120px;
+    right: 40%;
+    font-weight: 700;
+    color: #5f687b
+}
+
+footer i{
+    position: relative;
+    top: 50%;
+    right: 45%;
+}
+
+
+
+
+
+
+
+/* -----------------Iphone 7 Portrait------------------------- */
+
+
+
+
+
+
+
+@media(max-width:750px){
+
+body{
+   scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+.nav {
+    padding: 10px;
+    margin-top: 5px;
+position: relative;
+right: 10px;
+}
+
+
+    .container {
+        margin: 50px;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    
+    
+    div img {
+        position: relative;
+        right: 900px;
+    
+        display: inline-block;
+        width: 40%;
+        animation-name: animate;
+        -webkit-animation: mover 2s infinite alternate;
+        animation: mover 2s infinite alternate;
+    }
+    
+    .h1 {
+    
+        width: 40%;
+        display: inline-block;
+        position: relative;
+        left: 500px;
+        bottom: 200px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+    div .two {
+
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20%;
+        flex-wrap: wrap;
+    
+    
+    
+    
+    
+    }
+    
+    .why {
+        width: 90%;
+    
+        height: 400px;
+    
+    }
+    
+    .two .why h4 {
+        font-size: 50px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    
+    .two .why p {
+        font-size: 20px;
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    
+    .two .why i {
+        font-size: 50px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    
+    
+    
+    .two .see i {
+        font-size: 50px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    
+    .two .see p {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    
+    .two .see h1 {
+        font-size: 50px;
+        margin-top: 20px;
+        margin-right: 20px;
+        color: #5f687b;
+    }
+    
+    .see {
+        float: left;
+    
+    
+        height: 400px;
+        width: 90%;
+    
+    }
+    
+    
+    /* -------------------------END TWO DIVS------------------------- */
+
+
+
+
+    
+.friends {
+    display: flex;
+    position: relative;
+    width: 100%;
+flex-wrap: wrap;
+    top: 400px;
+    height: 500px;
+}
+
+
+
+.friends .img {
+
+    display: inline;
+    position: relative;
+    top: 90px;
+    left: 900px;
+    height: 90%;
+
+
+}
+
+.friends .img img {
+
+    height: 300px;
+    width: 400px;
+}
+
+.friends div {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+
+    width: 90%;
+}
+
+.friends .friends div p {
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* ------------------------End Friends------------------------- */
+
+
+
+
+
+
+
+.services {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+    overflow: hidden;
+    position: relative;
+background-color: #f9f9fa;
+top: 900px;
+}
+
+.services .header {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.services p {
+    font-size: 20px;
+
+}
+
+
+
+.services .first{
+
+    height: 80px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    }
+    
+    
+    .services .first #box{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    color: #5f687b;;
+    
+    }
+    
+    
+    
+    
+    .services .second{
+        
+        height: 130px;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 0px;
+        right: 10px;
+        }
+    
+    
+    
+        .services .third{
+            
+            height: 130px;
+            width: 90%;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 50px;
+            right: 10px;
+            }
+    
+    
+
+
+
+
+
+/* ------------------------End Services----------------------- */
+
+
+
+
+
+
+
+
+.last {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 500px;
+
+}
+
+
+
+form {
+    width: 90%;
+    height: 500px;
+    border-top: 3px solid #01b8dc;
+    border-bottom: 3px solid #01b8dc;
+    font-size: 20px;
+    color: #5f687b;
+    background-color: #f9f9fa;
+    position: relative;
+    right: 0px;
+    top: 1800px;
+    padding: 40px;
+}
+
+.last div {
+    width: 90%;
+    height: 900px;
+    background-color: #f9f9fa;
+    position: relative;
+    top: 200px;
+    border-top: 3px solid #01b8dc;
+    border-bottom: 3px solid #01b8dc;
+    right: 0px;
+}
+
+.last div iframe{
+    height: 250px;
+position: relative;
+top: 250px;
+width: 90%;
+right: 0;
+}
+
+.last div h3{
+color: #5f687b;
+position: relative;
+top: 40px;
+right: 20px;
+font-size: 30px;
+
+}
+
+.last div p{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+form input{
+    height: 20px;
+    width: 80px;
+
+}
+
+button {
+    background-color: #0dcaf0;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: x-large;
+    border: white;
+    margin-top: 80px;
+    margin-right: 85px;
+}
+
+/* --------------End The Form and location-------------------- */
+
+
+footer{
+
+    width: 100%;
+    height: 200px;
+    background-color: #f9f9fa;
+    position: relative;
+    top: 1800px;
+    
+    }
+    
+    
+    footer h1{
+        font-size: 50px;
+        position: relative;
+        top: 70px;
+        right: 40px;
+        font-weight: 700;
+        color: #5f687b
+    }
+    
+    footer i{
+        position: relative;
+        top: 50%;
+        right: 45%;
+    }
+    
+    
+
+
+
+}
